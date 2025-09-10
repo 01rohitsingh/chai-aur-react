@@ -1,0 +1,75 @@
+/* App container */
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* Heading */
+h1 {
+  color: #ffffff;
+  background-color: #4caf50;
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+h2 {
+  color: #222;
+  margin: 20px 0;
+}
+
+/* Buttons container */
+.buttons {
+  margin: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* Individual button colors */
+button:nth-child(1) {
+  background-color: #4caf50; /* Green */
+}
+button:nth-child(1):hover {
+  background-color: #45a049;
+}
+
+button:nth-child(2) {
+  background-color: #f44336; /* Red */
+}
+button:nth-child(2):hover {
+  background-color: #d32f2f;
+}
+
+button:nth-child(3) {
+  background-color: #2196f3; /* Blue */
+}
+button:nth-child(3):hover {
+  background-color: #1976d2;
+}
+
+/* Footer */
+p {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #444;
+  background: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
